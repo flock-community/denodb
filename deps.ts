@@ -4,7 +4,7 @@ export { default as SQLQueryBuilder } from "https://deno.land/x/dex/mod.ts";
 
 export { camelCase, snakeCase } from "https://deno.land/x/case/mod.ts";
 
-export { Client as PostgresClient } from "https://deno.land/x/postgres/mod.ts";
+export { Client as PostgresClient } from "https://raw.githubusercontent.com/flock-community/deno-postgres/feat-socket_connection/mod.ts";
 
 export {
   Client as MySQLClient,
